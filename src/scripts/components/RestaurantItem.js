@@ -33,7 +33,6 @@ export default class RestaurantItem extends HTMLElement {
                     <source media="(max-width: 600px)" data-srcset="https://restaurant-api.dicoding.dev/images/small/${this._restaurant.pictureId}">
                     <img class="catalog__image lazyload"
                       width="100%" height="200px"
-                      data-src="${placeholder}"
                       data-src="https://restaurant-api.dicoding.dev/images/small/${this._restaurant.pictureId}"
                       alt="${this._restaurant.name}" />
                   </picture>
